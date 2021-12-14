@@ -1,0 +1,121 @@
+body{margin:0px; background: #000;}
+/*--------------------------------------------------------admin page css*/
+/*//////////////////////////////header/////////////////////////////////////*/
+.head-bg{ width:100%; height:500px;background-image: url(../images/bg-img.png); 
+	background-repeat: no-repeat; background-size: 100%; position: relative; }
+.head-div{background: #; width: 100%;  text-align : center; padding: 30px 0px 0px 0px;
+ }
+ .add-fix{position: fixed; background: #000; top: -0%; height: 120px; z-index: 1;}
+ 
+.menu-icon{ color: #ffffff ; display: inline; position: relative; left: -40%;}
+.m-icon{ font-size: 20px; background: ; }
+.logo{ width: 180px; height: 30px;  display: inline-block; position: relative;}
+.l-img{width: 100%; height: 100%;}
+
+.search{ width: 100%;  height: auto; background: #; text-align: center; position:relative; top: 40px; }
+.s-display{display: block; top: 100px; transition:  3s ease-in 3s ;}
+.s-nodisplay{display: none;}
+input[type="search"]{ width: 50%;height: 30px;
+ border-radius: 14px 0px 0px 14px; border: none; padding: 14px; display: inline;margin:0px; outline: none;}
+button.s-search{ height: 30px; width: 40px; border: none; display: inline; background: #ffffff; margin:0px;
+	border-radius: 0px 14px 14px 0px ; position: relative; left: -8px;}
+.my-search{width: 39%; height:50% margin:0px;}
+
+
+.foot-nav{ background: #000; width: 100%; height: 50px; position: fixed; z-index: 10;
+ bottom:0%; text-align: cente;  }
+.icon-div{ width: 55px; height: 50px; background: ; display: inline-block; margin-right: 10%;
+	margin-left: 10%; text-align: center; padding:5px 0px 0px 0px; }
+	.icon-div h4{color: #fff; font-size: 12px; font-family: calibri;}
+	.f-icon{ display: block; background: #; margin: 0px; }
+	.ll{ top:-13px; position: relative;}
+.f-icon img{width: 25px; height: 20px}
+
+/*//////////////////////////////////body////////////////////////////////////////*/
+.body{width:100%; height:auto; background:#000; color: #000; position:; text-align: center;}
+.body h4{ color: #fff; }
+
+.a_head{ background: #; width: 100%; height: auto; margin-top: 50px; text-align: center; }
+
+.btn-div{ width: 50%; background: #; position: relative; margin-left: 25%; height: 38px; }
+.btn-div-add{border-bottom: 2px solid rgba(54,50, 54, 0.2);}
+
+.my_btn{width: 90px; background: #000; display: inline-block; height: 40px;
+  border:none;border-bottom: 2px solid rgba(54,50, 54, 0.2); margin-left: 0%; color: #fff}
+ .my_btn:hover{background:rgba(54,50, 54, 0.3); color: #ffffff; }
+.m_btn{ position: relative; right: 36.4% }
+.m_btn_bg{background:rgba(54,50, 54, 0.3); color: #ffffff;}
+
+.v_btn{ position: relative; left: 37% }
+.v_btn_bg{background:rgba(54,50, 54, 0.3); color: #ffffff;}
+.up_div{ background: #; width: 100%; margin-top: 14px;  }
+/*//////////////////////////////////////////////////////*/
+.show_video_div{display: block; }
+.hide_video_div{display: none;}
+.video_div{ display: none; }
+/*/////////////////*/
+.show_music_div{display: block;}
+.hide_music_div{display: none;}
+.music_div{ display:;}
+
+/*/////////////////////////////////////////////////////////*/
+.up_btn{ width: 130px; height: 50px;  padding: 5px; background: none;
+ border: 2px solid rgba(54,50, 54, 0.2);border-radius: 30px; position: relative; left: -21%; color: #fff }
+ .up_img{ background: #; display: inline; position: relative; top: 5px; }
+.up_img img{ width: 19px; height: 16px;  bottom: 3px;}
+/*//////////////////////////////////////table//////////////////////////////////////*/
+table{ background: #; width: 90%; text-align: center; margin-top: 30px; margin-left: 5%; }
+.t_div{width: 100%; background: #; height: auto;}
+table tr{ height:39px;  }
+th{ background: rgba(54,50, 54, 0.3); color: #ffffff; font-family: calibri; font-size: 13px; }
+td{height: 50px; background: rgba(143,140,140,0.2); color: #ddd}
+td img{width: 60px; height: 40px;}
+table tr:nth-child(){background: #ddd}
+.up-action { background: #ddd; border: none; border-radius: 4px; padding: 4px 9px 4px 9px;
+ margin-right: 9px; color:rgba(54,50, 54,);  }
+.up-del { background: rgba(54,50, 54, 0.9); color: #fff }
+/*//////////////////////////////////footer////////////////////////////////////////*/
+.footer{width: 100%; height: 400px; background: #000000; position: relative;}
+.footer-logo{ width: 100%; height: 30px; text-align: center; padding:  26px 0px 0px 0px;}
+.f-img{width: 70%; height: 70%;}
+.c-div{ width: 100%; height: 30px; text-align: center; background: #; color: #ffffff;}
+.c-div h3 { font-family: calibri ; font-size: 15px;}
+.footer-nav{ width: 100%; height: auto; background: #; text-align: center; }
+/*.f-nav{ background: #fff ;width:80%; height: auto; }*/
+.f-nav ul { list-style-type: none; color: #;}
+
+.f-nav li { color: #ffffff; display: inline;  font-size: 17px; padding: 2px; margin-right: 13px;
+	background: #; font-family: calibri; border-right: 2px solid #fff }
+.f-nav li a{text-decoration: none; }
+.f-nav li a:link{ color: #ffff }
+.f-nav li a:visited{ color: pink }
+.f-nav li a:hover{ color: #000;}
+.f-nav li:hover{ color: #000; background: #fff;}
+
+/*////////////////////social////////////////////////////////////////*/
+.social-div{ width: 100%; height: auto; background: #; margin-top: 50px; text-align: center;}
+.s-nav{ background: #; margin-right: 6px; padding:10px; display: inline-block;}
+.social{width: 30px; height: 30px}
+
+/* -----------------------------------------------music page css*/
+.error {width: 50%; height: auto; font-family: arial;
+ background: rgba(54,50, 54, 0.2); color: rgba(144,143,145);  margin-top: 1%; margin-left: 1%;
+border-radius: 9px; padding: 9px 0px 9px 15px; }
+/*.error h5{  }*/
+/*/////////////////////////////////////////////////////////////*/
+.back_div{ width: 80%; height: auto; margin-top: 29px ;margin-left: 29px; background: #; }
+.back_div button{ border-radius: 9px; width: 90px; background: none;
+ border:2px solid rgba(54,50, 54, 0.5); color:#fff;  padding: 9px;}
+.back_div button:hover{ background:rgba(151, 25, 158, 0.6); color: #ffffff; }
+
+.music_form{ width: 90%; height: 600px; background:#; padding: 30px 0px 0px  30px; }
+label{color:rgba(144,143,145); font-family: calibri; font-size: 19px;}
+input[type='file']{background: none;  margin-top: 10px; margin-bottom:19px; color: rgba(144,143,145); }
+
+input[type='name']{ width: 50%; height: 30px; 
+	background: rgba(54,50, 54, 0.2); border:none; border-radius: 5px; box-sizing: border-box;
+margin-bottom: 30px; color: rgba(144,143,145); padding: 12px; font-family: calibri;}
+/*label{height: 90px; }*/
+.upload_btn {border-radius: 9px; width: 90px; background: none;
+ border:2px solid rgba(54,50, 54, 0.5); color:#fff;  padding: 9px;}
+button.upload_btn:hover{ background:rgba(151, 25, 158, 0.6); color: #ffffff; }
